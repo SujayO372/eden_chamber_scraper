@@ -1,4 +1,3 @@
-````markdown
 # Eden Chamber Directory Scraper (no-browser)
 
 Scrapes the Eden Area Chamber business directory and saves member details into a CSV — **no headless browser required** (pure `requests + BeautifulSoup`).
@@ -48,4 +47,3 @@ user_agent = Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gec
 source .venv/bin/activate
 python scrape_eden_no_browser.py
 ```
-
