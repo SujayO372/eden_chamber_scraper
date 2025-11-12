@@ -14,7 +14,7 @@ Scrapes the Eden Area Chamber business directory and saves member details into a
 
 ### 1) Clone
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:SujayO372/eden_chamber_scraper.git
 cd eden_chamber_scraper
 ````
 
