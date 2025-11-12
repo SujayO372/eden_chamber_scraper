@@ -42,7 +42,7 @@ eden_chamber_scraper/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:SujayO372/eden_chamber_scraper.git
 cd eden_chamber_scraper
 ```
 
