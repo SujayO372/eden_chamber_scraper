@@ -1,0 +1,33 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Local data & logs
+data/*.csv
+logs/
+*.log
+
+# Playwright/Selenium leftovers (if any remain)
+playwright-report/
+test-results/
+

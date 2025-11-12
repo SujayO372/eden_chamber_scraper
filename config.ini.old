@@ -1,0 +1,48 @@
+[general]
+# Output folder for CSVs (relative to project root)
+output_dir = data
+# Max concurrent requests when fetching member detail pages
+concurrency = 8
+# Request timeout (seconds)
+timeout = 20
+# If a member detail page fails, retry this many times with exponential backoff
+max_retries = 3
+# Respect robots.txt? (false = ignore). NOTE: Keep true for best practice.
+respect_robots = true
+# Optional: custom user agent (leave blank to use default)
+user_agent =
+
+[targets]
+# One or more list URLs, separated by newlines.
+# You can include other ChamberMaster list pages here as needed.
+urls =
+    https://business.edenareachamber.com/list
+    https://business.edenareachamber.com/list/searchalpha/0-9
+    https://business.edenareachamber.com/list/searchalpha/a
+    https://business.edenareachamber.com/list/searchalpha/b
+    https://business.edenareachamber.com/list/searchalpha/c
+    https://business.edenareachamber.com/list/searchalpha/d
+    https://business.edenareachamber.com/list/searchalpha/e
+    https://business.edenareachamber.com/list/searchalpha/f
+    https://business.edenareachamber.com/list/searchalpha/g
+    https://business.edenareachamber.com/list/searchalpha/h
+    https://business.edenareachamber.com/list/searchalpha/i
+    https://business.edenareachamber.com/list/searchalpha/j
+    https://business.edenareachamber.com/list/searchalpha/k
+    https://business.edenareachamber.com/list/searchalpha/l
+    https://business.edenareachamber.com/list/searchalpha/m
+    https://business.edenareachamber.com/list/searchalpha/n
+    https://business.edenareachamber.com/list/searchalpha/o
+    https://business.edenareachamber.com/list/searchalpha/p
+    https://business.edenareachamber.com/list/searchalpha/q
+    https://business.edenareachamber.com/list/searchalpha/r
+    https://business.edenareachamber.com/list/searchalpha/s
+    https://business.edenareachamber.com/list/searchalpha/t
+    https://business.edenareachamber.com/list/searchalpha/u
+    https://business.edenareachamber.com/list/searchalpha/v
+    https://business.edenareachamber.com/list/searchalpha/w
+    https://business.edenareachamber.com/list/searchalpha/x
+    https://business.edenareachamber.com/list/searchalpha/y
+    https://business.edenareachamber.com/list/searchalpha/z
+    https://business.edenareachamber.com/list/search?sa=true
+
