@@ -42,7 +42,7 @@ eden_chamber_scraper/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone git@github.com:SujayO372/eden_chamber_scraper.git
+git clone https://github.com/SujayO372/eden_chamber_scraper.git
 cd eden_chamber_scraper
 ```
 
@@ -147,3 +147,4 @@ python scrape_eden_no_browser.py \
 | `description`                  | Company or organization description         |
 
 ---
+
